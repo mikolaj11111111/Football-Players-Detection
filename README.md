@@ -27,7 +27,7 @@ Projekt rozwiązuje problem przekształcania nieustrukturyzowanych danych wideo 
 
 | Analiza Wideo (Tracking + Statystyki) | Diagram Woronoja (Kontrola Przestrzeni) |
 | :---: | :---: |
-| *[]* | *[]* |
+| ![Tracking Animation](assets/output_videos.gif) | ![Voronoi Animation](assets/voronoi_diagram.gif) |
 
 ## 🛠️ Technologie i Biblioteki
 
