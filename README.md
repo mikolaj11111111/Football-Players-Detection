@@ -25,11 +25,9 @@ Projekt rozwiązuje problem przekształcania nieustrukturyzowanych danych wideo 
 
 ## 📊 Przykładowe wizualizacje
 
-> *Tu możesz wstawić GIFy lub zrzuty ekranu z folderu `output_videos`*
-
 | Analiza Wideo (Tracking + Statystyki) | Diagram Woronoja (Kontrola Przestrzeni) |
 | :---: | :---: |
-| *[Miejsce na output_videos.avi]* | *[Miejsce na voronoi_diagram.avi]* |
+| *[]* | *[]* |
 
 ## 🛠️ Technologie i Biblioteki
 
