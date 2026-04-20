@@ -50,6 +50,21 @@ Projekt został zrealizowany w języku **Python** z wykorzystaniem wiodących bi
 6.  **Analiza:** Obliczenie prędkości, dystansu i posiadania piłki.
 7.  **Rendering:** Generowanie wyjściowych plików wideo z nałożonymi warstwami analitycznymi.
 
+## Roboflow API
+
+Projekt korzysta z modelu Roboflow do wykrywania punktów kluczowych boiska.
+Klucz API powinien być ustawiony lokalnie, a nie wpisany na sztywno w kodzie.
+
+1. Skopiuj `.env.example` do `.env`.
+2. Ustaw `ROBOFLOW_API_KEY` w pliku `.env` albo w zmiennych środowiskowych.
+3. Uruchom projekt lub notebook ponownie.
+
+Przykład:
+
+```bash
+ROBOFLOW_API_KEY=your_roboflow_api_key_here
+```
+
 ## 📂 Struktura Projektu
 
 ```bash

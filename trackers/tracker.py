@@ -7,6 +7,7 @@ import numpy as np
 sys.path.append('../')
 
 from utils import *
+from utils import get_required_env_var
 
 class Tracker:
     def __init__(self, model_path):
@@ -20,7 +21,8 @@ class Tracker:
         """Inicjalizacja modelu keypoints boiska"""
         try:
             from roboflow import Roboflow
-            rf = Roboflow(api_key="kb13wCgQ6mzGPAciRgVE")
+            api_key = get_required_env_var("ROBOFLOW_API_KEY")
+            rf = Roboflow(api_key=api_key)
             project = rf.workspace("roboflow-jvuqo").project("football-field-detection-f07vi")
             self.field_model = project.version(15).model
             print("✅ Model keypoints boiska załadowany")

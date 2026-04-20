@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+output_videos/
+input_videos/
+venv/
+runs/
+*.pkl
+*.pt
+.env
+.env.*
+!.env.example
